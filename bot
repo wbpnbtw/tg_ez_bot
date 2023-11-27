@@ -7,7 +7,7 @@ t = ["words"]
 s = ["words"]
 
 
-@bot.message_handler(regexp="любовь")
+@bot.message_handler(regexp="smth")
 def handle_text(message):
     time.sleep(1)
     bot.send_message(message.chat.id, random.choice(t))
